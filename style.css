@@ -16,6 +16,7 @@ body {
   background-color: #f5f5f5;
 }
 
+
 header {
   display: flex;
   justify-content: flex-start;
@@ -32,6 +33,11 @@ header h1 {
   max-width: 500px;
   margin: 30px auto;
   padding: 20px;
+}
+
+/* JS class styling */
+.edit-mode{
+  color: #ccc;
 }
 
 /* Form & Input */
@@ -117,10 +123,11 @@ header h1 {
   padding: 10px 15px;
   margin: 0 5px 20px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 @media (max-width: 500px) {
   .items li {
-    width: 45%;
+    width: 100%;
   }
 }
